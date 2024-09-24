@@ -1,4 +1,4 @@
-contributionManagement(
+manageDonation(
     "noakhali-donate-btn",
     "noakhali-donate-amount",
     "noakhali-amount",
@@ -6,7 +6,7 @@ contributionManagement(
     "history-section",
     "noakhali-heading"
 );
-contributionManagement(
+manageDonation(
     "feni-donate-btn",
     "feni-donate-amount",
     "feni-amount",
@@ -14,7 +14,7 @@ contributionManagement(
     "history-section",
     "feni-heading"
 );
-contributionManagement(
+manageDonation(
     "protest-donate-btn",
     "protest-donate-amount",
     "protest-amount",
