@@ -1,10 +1,13 @@
 function getInputElementValueAsNumber(id) {
-    const inputValue = document.getElementById(id).value;
-    return parseFloat(inputValue);
+    const inputElementValue = document.getElementById(id).value;
+    const inputValueAsNumber = parseFloat(inputElementValue);
+    return inputValueAsNumber;
+}
 
 function getTextElementValueAsNumber(id) {
-    const textValue = document.getElementById(id).innerText;
-    return parseFloat(textValue);
+    const textElementValue = document.getElementById(id).innerText;
+    const textValueAsNumber = parseFloat(textElementValue);
+    return textValueAsNumber;
 }
 
 function manageDonation(
